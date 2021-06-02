@@ -10,7 +10,7 @@
 <div class="card">
 	<img
 		on:click={cardClicked}
-		src="src/assets/{cardType}/{card}.svg"
+		src="static/assets/{cardType}/{card}.svg"
 		class="{cardType}-{card}"
 		alt={card}
 	/>

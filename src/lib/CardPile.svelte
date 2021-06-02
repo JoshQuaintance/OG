@@ -30,7 +30,7 @@
         
         let cardRetrieved = deck.popAt(0)
         console.log('card grabbed: ' + cardRetrieved, deck.length);
-        // firstCard.src = `src/assets/minicards/${cardRetrieved}.svg`;
+        // firstCard.src = `static/assets/minicards/${cardRetrieved}.svg`;
 
 
         firstCard.classList.add('slideOff');
@@ -46,9 +46,9 @@
 
 <div class="card-pile-container">
     <ul class="card-pile" on:click={getFromPile}>
-        <img src="src/assets/minicards/back.svg" alt="backs" class="card" />
-        <img src="src/assets/minicards/back.svg" alt="back" class="card" />
-        <img src="src/assets/minicards/back.svg" alt="back" class="card" />
+        <img src="assets/minicards/back.svg" alt="backs" class="card" />
+        <img src="assets/minicards/back.svg" alt="back" class="card" />
+        <img src="assets/minicards/back.svg" alt="back" class="card" />
     </ul>
 </div>
 
