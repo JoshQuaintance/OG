@@ -28,7 +28,7 @@
 
 		let cardRetrieved = deck.popAt(0);
 		console.log('card grabbed: ' + cardRetrieved, deck.length);
-		// firstCard.src = `assets/minicards/${cardRetrieved}.svg`;
+		firstCard.src = `assets/minicards/${cardRetrieved}.svg`;
 
 		firstCard.classList.add('slideOff');
 		pile.style.pointerEvents = 'none';
