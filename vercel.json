@@ -1,0 +1,8 @@
+{
+	"rewrites": [
+		{
+			"source": "/create-room",
+			"destination": "/api"
+		}
+	]
+}
